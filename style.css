@@ -43,6 +43,7 @@ a {
 .nav-container {
     position: absolute;
     padding: 50px 0 0 0;
+    z-index: 1;
 }
 
 nav {
@@ -118,8 +119,19 @@ footer {
         height: 250px;
     }
 
-    nav {
-        display: none;
+    .nav-container{
+        display:none;
+        top: 40px;
+        right: 0;
+        padding: 0;
+    }
+
+    .nav-container.active{
+      display:block;
+    }
+
+    .logo{
+      display: none;
     }
 
     main {
