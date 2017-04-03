@@ -3,10 +3,17 @@
 * {
     font-family: 'Cherry Swash', sans-serif;
     color: white;
+    transition-duration: 0.3s;
+}
+
+html {
+    overflow: hidden;
 }
 
 body {
     margin: 0;
+    position: relative;
+    overflow: hidden;
 }
 
 a {
@@ -24,11 +31,12 @@ a {
 .content-container {
     max-width: 800px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .menu-button {
     display: none;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
 }
@@ -119,22 +127,29 @@ footer {
         height: 250px;
     }
 
-    .nav-container{
-        display:none;
+    .nav-container {
+        display: block;
         top: 40px;
-        right: 0;
+        right: -150px;
         padding: 0;
     }
 
-    .nav-container.active{
-      display:block;
+    .nav-active .nav-container {
+        right: 0;
     }
 
-    .logo{
-      display: none;
+    .logo {
+        display: none;
     }
 
     main {
         margin: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .img-container {
+        width: 300px;
+        height: 200px;
     }
 }
