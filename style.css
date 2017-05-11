@@ -109,14 +109,40 @@ header {
     border-radius: 50%;
 }
 
-.content .translucent {
-}
+.content .translucent {}
 
 .wedding-info {
-  margin: 0 auto;
-  text-align: center;
-  color: black;
-  background: rgba(200, 200, 200, 0.8);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3em;
+    color: black;
+    background: rgba(200, 200, 200, 0.8);
+}
+
+.wedding-info div {
+    position: relative;
+}
+
+.wedding-info .date {
+    top: 20%;
+}
+
+.wedding-info .location {
+    top: 38%;
+}
+
+.wedding-info .description {
+    top: 49%;
+    font-size: 0.7em;
+    font-family: arial;
+    font-style: italic;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wedding-info .tag {
+    top: 60%;
+    font-size: 0.8em;
 }
 
 .img-container {
