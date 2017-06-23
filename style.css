@@ -22,8 +22,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
-.banner{
-  width: 100%;
+
+.banner {
+    width: 100%;
 }
 
 .background-img {
@@ -112,14 +113,18 @@ header {
     border-radius: 50%;
 }
 
-.content .translucent {}
+.content .rounded {
+    width: 470px;
+    height: 300px;
+    border-radius: 140px;
+}
 
 .wedding-info {
     margin: 0 auto;
     text-align: center;
     font-size: 1.3em;
     color: black;
-    background: rgba(200, 200, 200, 0.8);
+    background: white;
 }
 
 .wedding-info div {
@@ -127,24 +132,30 @@ header {
 }
 
 .wedding-info .date {
-    top: 20%;
+    top: 50px;
 }
 
 .wedding-info .location {
-    top: 38%;
+    top: 40px;
+    font-size: 1.1em;
 }
 
 .wedding-info .description {
-    top: 49%;
+    top: 70px;
     font-size: 0.7em;
     font-family: arial;
     font-style: italic;
-    width: 70%;
+    width: 56%;
     margin: 0 auto;
 }
 
+.wedding-info .rsvp {
+    top: 100px;
+    color: red;
+}
+
 .wedding-info .tag {
-    top: 60%;
+    top: 120px;
     font-size: 0.8em;
 }
 
