@@ -119,6 +119,8 @@ header {
     border-radius: 140px;
 }
 
+/* Wedding page */
+
 .wedding-info {
     margin: 0 auto;
     text-align: center;
@@ -158,6 +160,19 @@ header {
     top: 120px;
     font-size: 0.8em;
 }
+
+/* Story Page */
+
+.story {
+    font-size: 0.7em;
+    overflow: auto;
+    height: 100%;
+    padding: 28px 40px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* Home Page */
 
 .img-container {
     margin: 0 auto;
