@@ -34,16 +34,24 @@
       <main>
         <header>
             <svg class="banner">
-              <use href="images/banners.svg#us"></use>
+              <use href="images/banners.svg#contact"></use>
             </svg>
         </header>
         <div class="content">
-          <div class="wedding-info translucent circle">
-            <div class="date">Saturday, December 9, 2017</div>
-            <div class="location">The Reception Center at St. Clement</div>
-            <div class="location">Matawan, New Jersey</div>
-            <div class="description">Bring your appetite, your dancing shoes, and your holiday spirit!</div>
-            <div class="tag">#NappKnollNoel</div>
+          <div class="wedding-info rounded">
+
+            <div class="email-info">Feel free to reach out to us any time at</div>
+            <div class="email">NappKnollNoel@gmail.com</div>
+            
+            <div class="form-info">In a hurry? Use the form below!</div>
+
+            <form action="https://formspree.io/NappKnollNoel@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="_replyto" placeholder="Email Address">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Message"></textarea>
+                <input type="submit" value="Send">
+            </form>
           </div>
         </div>
         <footer>
