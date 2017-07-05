@@ -129,7 +129,7 @@ header {
     background: white;
 }
 
-.wedding-info div, .wedding-info    form {
+.wedding-info div, .wedding-info form {
     position: relative;
 }
 
@@ -184,17 +184,31 @@ header {
 }
 
 .form-info {
-    top: 50px;
+    top: 40px;
     font-size: 0.7em;
 }
 
 .contact-inputs {
-    top: 60px;
+    top: 45px;
 }
 
 .contact-inputs input, .contact-inputs textarea {
     display: block;
-} 
+    margin: 3px auto;
+}
+
+.contact-inputs input[type=text], .contact-inputs input[type=email], .contact-inputs textarea {
+    width: 218px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.contact-inputs textarea {
+    height: 60px;
+}
 
 /* Home Page */
 
