@@ -129,7 +129,7 @@ header {
     background: white;
 }
 
-.wedding-info div {
+.wedding-info div, .wedding-info    form {
     position: relative;
 }
 
@@ -171,6 +171,30 @@ header {
     box-sizing: border-box;
     text-align: left;
 }
+
+/* Contact Page */
+
+.email-info, .email {
+    top: 20px;
+    font-size: 0.8em;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.form-info {
+    top: 50px;
+    font-size: 0.7em;
+}
+
+.contact-inputs {
+    top: 60px;
+}
+
+.contact-inputs input, .contact-inputs textarea {
+    display: block;
+} 
 
 /* Home Page */
 
