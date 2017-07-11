@@ -125,6 +125,7 @@ header {
     margin: 0 auto;
     text-align: center;
     font-size: 1.3em;
+    overflow: hidden;
     color: black;
     background: white;
 }
@@ -167,9 +168,13 @@ header {
     font-size: 0.7em;
     overflow: auto;
     height: 100%;
-    padding: 28px 40px;
+    padding: 30px 45px;
     box-sizing: border-box;
     text-align: left;
+}
+
+.story::-webkit-scrollbar {
+    display: none;
 }
 
 /* Contact Page */
