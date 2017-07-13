@@ -168,15 +168,15 @@ header {
     font-size: 0.7em;
     overflow: auto;
     height: 100%;
-    padding: 30px 45px;
+    margin: 30px 45px;
     box-sizing: border-box;
     text-align: left;
 }
 
-.story::-webkit-scrollbar {
+/*.story::-webkit-scrollbar {
     display: none;
 }
-
+*/
 /* Contact Page */
 
 .email-info, .email {
