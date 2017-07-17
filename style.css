@@ -166,17 +166,22 @@ header {
 
 .story {
     font-size: 0.7em;
-    overflow: auto;
+    overflow: hidden;
     height: 100%;
     margin: 30px 45px;
     box-sizing: border-box;
     text-align: left;
 }
 
-/*.story::-webkit-scrollbar {
-    display: none;
+.story .page {
+    position:absolute;
+    opacity: 0;
 }
-*/
+
+.story .page.shown{
+    opacity: 1;
+}
+
 /* Contact Page */
 
 .email-info, .email {
