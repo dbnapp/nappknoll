@@ -276,7 +276,31 @@ footer {
     }
 }
 
+@media only screen and (max-width: 425px) {
+    .content {
+        font-size: 12px;
+    }
+
+    .img-container img {
+        width: 300px;
+    }
+}
+
 @media only screen and (max-width: 375px) {
+    .content {
+        font-size: 11px;
+    }
+
+    .img-container img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .content {
+        font-size: 9px;
+    }
+    
     .img-container img {
         width: 300px;
     }
