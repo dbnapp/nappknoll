@@ -186,8 +186,8 @@ header {
 /* Contact Page */
 
 .email-info, .email {
-    top: 20px;
-    font-size: 0.8em;
+    top: 1.2em;
+    font-size: 1.2em;
 }
 
 .email {
@@ -195,12 +195,12 @@ header {
 }
 
 .form-info {
-    top: 40px;
-    font-size: 0.7em;
+    top: 2.9em;
+    font-size: 1em;
 }
 
 .contact-inputs {
-    top: 45px;
+    top: 3.2em;
 }
 
 .contact-inputs input, .contact-inputs textarea {
@@ -209,8 +209,9 @@ header {
     font-family: arial;
 }
 
-.contact-inputs input[type=text], .contact-inputs input[type=email], .contact-inputs textarea {
-    width: 218px;
+.contact-inputs input[type=text], .contact-inputs input[type=email],
+.contact-inputs textarea, .contact-inputs input[type=submit] {
+    font-size: 1em;
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -218,8 +219,19 @@ header {
     padding: 2px;
 }
 
+.contact-inputs input[type=text], .contact-inputs input[type=email],
+.contact-inputs textarea{
+    width: 14em;
+}
+
+.contact-inputs input[type=submit]{
+    font-size: 0.9em;
+    padding: 0.3em 1em;
+    background-color: #b3b3b3;
+}
+
 .contact-inputs textarea {
-    height: 60px;
+    height: 4em;
 }
 
 /* Home Page */
