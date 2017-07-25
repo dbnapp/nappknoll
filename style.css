@@ -167,20 +167,31 @@ header {
 /* Story Page */
 
 .story {
-    overflow: hidden;
+    font-size: 0.9em;
     height: 100%;
-    margin: 30px 45px;
+    margin: 2.1em 3.6em;
     box-sizing: border-box;
     text-align: left;
+    overflow: hidden;
 }
 
 .story .page {
-    position:absolute;
+    display: none;
+    position: absolute;
     opacity: 0;
 }
 
-.story .page.shown{
+.story .page.shown {
+    display: block;
     opacity: 1;
+}
+
+.story .page .arrow img{
+    height: 2em;
+}
+
+.story .page .arrow, .story .page .page-num {
+    text-align: center;
 }
 
 /* Contact Page */
@@ -220,11 +231,11 @@ header {
 }
 
 .contact-inputs input[type=text], .contact-inputs input[type=email],
-.contact-inputs textarea{
+.contact-inputs textarea {
     width: 14em;
 }
 
-.contact-inputs input[type=submit]{
+.contact-inputs input[type=submit] {
     font-size: 0.9em;
     padding: 0.3em 1em;
     background-color: #b3b3b3;
@@ -312,7 +323,7 @@ footer {
     .content {
         font-size: 9px;
     }
-    
+
     .img-container img {
         width: 300px;
     }
