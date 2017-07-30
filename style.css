@@ -1,7 +1,6 @@
 /* Styles go here */
 
 * {
-    font-family: 'Cherry Swash', sans-serif;
     transition-duration: 0.3s;
 }
 
@@ -10,6 +9,7 @@ html {
     height: 100%;
     overflow-x: hidden;
     color: white;
+    font-family: 'Cherry Swash', sans-serif;
 }
 
 body {
@@ -83,7 +83,7 @@ nav a:hover {
 }
 
 .nav-item {
-    font-family: Arial;
+    font-family: 'PT Sans', sans-serif;
     width: 110px;
     padding: 20px 20px;
 }
@@ -175,23 +175,37 @@ header {
     overflow: hidden;
 }
 
+.story .page.text-sm p{
+    font-size: 0.9em;
+}
+
 .story .page {
-    display: none;
     position: absolute;
+    height: 20em;
     opacity: 0;
+    pointer-events: none;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .story .page.shown {
-    display: block;
     opacity: 1;
+    pointer-events: auto;
+}
+
+.story .page-nav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .story .page .arrow img{
     height: 2em;
 }
 
-.story .page .arrow, .story .page .page-num {
-    text-align: center;
+.story .page .arrows, .story .page .page-num {
+    display: flex;
+    justify-content: center;
 }
 
 /* Contact Page */
