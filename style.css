@@ -169,13 +169,13 @@ header {
 .story {
     font-size: 0.9em;
     height: 100%;
-    margin: 2.1em 3.6em;
+    margin: 3em 3.6em;
     box-sizing: border-box;
     text-align: left;
     overflow: hidden;
 }
 
-.story .page.text-sm p{
+.story .page.text-sm p {
     font-size: 0.9em;
 }
 
@@ -192,14 +192,18 @@ header {
     pointer-events: auto;
 }
 
-.story .page-nav{
+.story .page-nav {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
 }
 
-.story .page .arrow img{
+.story .page .arrow {
+    margin: 0 0.5em;
+}
+
+.story .page .arrow img {
     height: 2em;
 }
 
