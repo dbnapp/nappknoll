@@ -38,7 +38,7 @@ a {
     position: fixed;
     width: 100%;
     z-index: 3;
-    height: 50px;
+    height: 40px;
     background-color: white;
 }
 
@@ -55,7 +55,7 @@ a {
 .menu-button {
     display: none;
     position: fixed;
-    top: 5px;
+    top: 2px;
     right: 0;
     z-index: 3;
 }
@@ -71,6 +71,7 @@ a {
     position: absolute;
     padding: 100px 0 0 0;
     z-index: 1;
+    font-size: 14px;
 }
 
 nav {
@@ -89,16 +90,17 @@ nav a:hover {
 }
 
 .logo {
-    font-size: 2em;
+    font-size: 2.3em;
+    width: 3.5em;
+    padding: 0.9em 0;
+    margin: 0 0 0.4em;
     text-align: center;
-    padding: 40px 10px;
-    margin: 10px 0;
 }
 
 .nav-item {
     font-family: 'PT Sans', sans-serif;
-    width: 110px;
-    padding: 20px 20px;
+    width: 6em;
+    padding: 1.8em 1em;
 }
 
 main {
@@ -311,6 +313,7 @@ footer {
     }
 
     .nav-container {
+        position: fixed;
         display: block;
         top: 40px;
         right: -150px;
