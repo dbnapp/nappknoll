@@ -30,7 +30,7 @@ a {
 .background-img {
     width: 100%;
     height: 100%;
-    background: url("images/background-circles.jpg") no-repeat fixed;
+    background: url("images/background.png") no-repeat fixed;
     background-size: cover;
 }
 
@@ -48,7 +48,7 @@ a {
 
 .content-container {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 40px auto 0;
     overflow-x: hidden;
 }
 
@@ -68,21 +68,20 @@ a {
 }
 
 .nav-container {
-    position: absolute;
-    padding: 100px 0 0 0;
-    z-index: 1;
     font-size: 14px;
+    width: 100%;
+    background: rgba(195, 195, 195, 0.5);
 }
 
 nav {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
 
 nav a {
     width: 130px;
-    background: rgba(195, 195, 195, 0.5);
 }
 
 nav a:hover {
@@ -98,13 +97,8 @@ nav a:hover {
 }
 
 .nav-item {
-    font-family: 'PT Sans', sans-serif;
     width: 6em;
-    padding: 1.8em 1em;
-}
-
-main {
-    margin: 0 0 0 200px;
+    padding: 1em 1em;
 }
 
 header {
