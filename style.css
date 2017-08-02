@@ -34,6 +34,8 @@ a {
     background-size: cover;
 }
 
+/* Nav menu */
+
 .bar {
     position: fixed;
     width: 100%;
@@ -44,12 +46,6 @@ a {
 
 .bar.bottom {
     bottom: 0;
-}
-
-.content-container {
-    max-width: 800px;
-    margin: 40px auto 0;
-    overflow-x: hidden;
 }
 
 .menu-button {
@@ -68,9 +64,9 @@ a {
 }
 
 .nav-container {
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
-    background: rgba(195, 195, 195, 0.5);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 nav {
@@ -98,7 +94,7 @@ nav a:hover {
 
 .nav-item {
     width: 6em;
-    padding: 1em 1em;
+    padding: 0.7em 0;
 }
 
 header {
@@ -111,10 +107,10 @@ header {
 }
 
 .content {
-    font-size: 14px;
     position: relative;
-    height: 100%;
-    width: 100%;
+    max-width: 760px;
+    margin: 40px auto 0;
+    overflow-x: hidden;
 }
 
 .content .circle {
@@ -123,10 +119,10 @@ header {
     border-radius: 50%;
 }
 
-.content .rounded {
+.content.rounded {
     width: 33em;
     height: 21em;
-    border-radius: 140px;
+    border-radius: 163px;
 }
 
 /* Wedding page */
@@ -275,13 +271,13 @@ header {
 /* Home Page */
 
 .img-container {
-    margin: 0 auto;
+    width: 100%;
 }
 
 .img-container img {
     display: block;
     margin: 0 auto;
-    width: 600px;
+    width: 100%;
 }
 
 .img-container .circle {
