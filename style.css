@@ -215,8 +215,12 @@ p.line-small {
 }
 
 .page-text {
-    width: 30em;
+    position: absolute;
+    top: 8em;
+    right: 0;
+    left: 0;
     margin: 0 auto;
+    width: 30em;
 }
 
 .page-text.sm {
@@ -228,9 +232,13 @@ p.line-small {
 }
 
 .page-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1.7em;
     width: 25.4em;
-    height: 6.7em;
-    margin: 2em auto 0.7em;
+    height: 6.4em;
+    margin: 0 auto;
     background: url("images/Top Scroll.png") no-repeat;
     background-size: 100%;
 }
@@ -239,9 +247,9 @@ p.line-small {
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 1.7em;
+    bottom: 4em;
     width: 25.4em;
-    height: 6.7em;
+    height: 5em;
     margin: 0 auto;
     background: url("images/Bottom Scroll.png") no-repeat;
     background-size: 100%;
