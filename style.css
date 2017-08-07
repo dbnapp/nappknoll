@@ -22,6 +22,10 @@ a {
     color: inherit;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .banner {
     width: 100%;
 }
@@ -124,6 +128,8 @@ header {
 /* Wedding page */
 
 .wedding-info {
+    font-size: 1.5em;
+    height: 100%;
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
@@ -131,32 +137,45 @@ header {
     background: white;
 }
 
-.wedding-info div, .wedding-info form {
+.wedding-info .page-footer {
+    bottom: 1.7em;
+}
+
+.wedding-info form {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.wedding-info .info {
     position: relative;
 }
 
-.wedding-info .date {
-    font-size: 1.4em;
-    top: 2.6em;
+.wedding-info .pretext {
+    top: 9em;
+    font-family: 'News Cycle', sans-serif;
 }
 
 .wedding-info .location {
     font-size: 1.6em;
-    top: 1.8em;
+    top: 5.7em;
+}
+
+.wedding-info .date {
+    top: 9.4em;
+    font-family: 'News Cycle', sans-serif;
 }
 
 .wedding-info .description {
-    font-size: 1em;
     font-family: 'News Cycle', sans-serif;
-    font-style: italic;
-    top: 5em;
+    top: 11em;
     width: 56%;
     margin: 0 auto;
 }
 
 .wedding-info .rsvp {
-    font-size: 1.4em;
-    top: 5.1em;
+    font-size: 1.6em;
+    top: 7em;
     color: red;
 }
 
@@ -245,8 +264,8 @@ p.line-small {
 
 .page-footer {
     position: absolute;
-    right: 0;
     left: 0;
+    right: 0;
     bottom: 4em;
     width: 25.4em;
     height: 5em;
