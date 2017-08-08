@@ -137,10 +137,6 @@ header {
     background: white;
 }
 
-.wedding-info .page-footer {
-    bottom: 1.7em;
-}
-
 .wedding-info form {
     position: relative;
     left: 0;
@@ -272,7 +268,6 @@ p.line-small {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 4em;
     width: 25.4em;
     height: 5em;
     margin: 0 auto;
@@ -280,11 +275,30 @@ p.line-small {
     background-size: 100%;
 }
 
+.page-footer {
+    bottom: 1.7em;
+}
+
+.story .page-footer {
+    bottom: 4em;
+}
+
 /* Contact Page */
 
+.contact {
+    font-size: 1.5em;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    color: black;
+    background: white;
+}
+
 .email-info, .email {
-    top: 1.2em;
     font-size: 1.2em;
+    position: relative;
+    top: 7em;
 }
 
 .email {
@@ -292,12 +306,15 @@ p.line-small {
 }
 
 .form-info {
-    top: 2.9em;
-    font-size: 1em;
+    font-size: 0.9em;
+    position: relative;
 }
 
 .contact-inputs {
-    top: 3.2em;
+    position: relative;
+    display:inline-block;
+    top: 10em;
+    text-align: left;
 }
 
 .contact-inputs input, .contact-inputs textarea {
@@ -306,29 +323,34 @@ p.line-small {
     font-family: 'News Cycle', sans-serif;
 }
 
-.contact-inputs input[type=text], .contact-inputs input[type=email],
-.contact-inputs textarea, .contact-inputs input[type=submit] {
-    font-size: 1em;
+.contact-inputs input[type=text],
+.contact-inputs input[type=tel],
+.contact-inputs input[type=email],
+.contact-inputs textarea,
+.contact-inputs input[type=submit] {
+    font-size: 0.8em;
     border-style: solid;
     border-color: black;
     border-width: 1px;
     border-radius: 2px;
-    padding: 2px;
+    padding: 0 1px;
 }
 
-.contact-inputs input[type=text], .contact-inputs input[type=email],
+.contact-inputs input[type=text],
+.contact-inputs input[type=tel],
+.contact-inputs input[type=email],
 .contact-inputs textarea {
-    width: 14em;
+    width: 24em;
 }
 
 .contact-inputs input[type=submit] {
-    font-size: 0.9em;
-    padding: 0.3em 1em;
+    font-size: 0.7em;
+    padding: 0 1.5em;
     background-color: #b3b3b3;
 }
 
 .contact-inputs textarea {
-    height: 4em;
+    height: 6em;
 }
 
 /* Home Page */
