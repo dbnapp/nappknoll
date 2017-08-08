@@ -179,9 +179,15 @@ header {
     color: red;
 }
 
-.wedding-info .tag {
-    font-size: 1.2em;
-    top: 7.2em;
+.wedding-info .directions {
+    font-family: 'News Cycle', sans-serif;
+    top: 13em;
+}
+
+.directions a {
+    background-color: #ababab;
+    border: solid 1px black;
+    padding: 0 1em;
 }
 
 /* Story Page */
