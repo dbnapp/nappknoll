@@ -1,9 +1,5 @@
 /* Styles go here */
 
-* {
-    transition-duration: 0.3s;
-}
-
 html {
     width: 100%;
     height: 100%;
@@ -312,7 +308,7 @@ p.line-small {
 
 .contact-inputs {
     position: relative;
-    display:inline-block;
+    display: inline-block;
     top: 10em;
     text-align: left;
 }
@@ -368,6 +364,43 @@ p.line-small {
 .img-container .circle {
     width: 350px;
     height: 350px;
+}
+
+/* Registry page*/
+
+.registry-info {
+    font-size: 1.5em;
+    height: 100%;
+    text-align: center;
+}
+
+.registry-info .info {
+    font-size: 1.1em;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.registry-info .pretext {
+    top: 10em;
+}
+
+.registry-info .site {
+    top: 10.5em;
+    font-weight: bold;
+}
+
+.registry-info .instructions {
+    top: 13em;
+}
+
+.registry-info .thanks {
+    top: 14em;
+}
+
+.registry-info .links {
+    top: 15em;
+    font-family: "News Cycle", sans-serif;
 }
 
 footer {
