@@ -47,10 +47,18 @@ a {
     bottom: 0;
 }
 
+.menu-button-container{
+    font-size:16px;
+    display:none;
+    height: 2.4em;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+}
+
 .menu-button {
     display: none;
     position: fixed;
-    top: 2px;
+    top: 1px;
     right: 0;
     z-index: 3;
 }
@@ -58,14 +66,16 @@ a {
 .menu-button .menu-button-bar {
     width: 30px;
     height: 5px;
-    background-color: #acacac;
+    background-color: black;
     margin: 5px;
 }
 
 .nav-container {
     font-size: 16px;
+    z-index: 1;
     width: 100%;
     background: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
 }
 
 nav {
@@ -351,6 +361,10 @@ p.line-small {
 
 /* Home Page */
 
+.welcome-text {
+    display: none;
+}
+
 .img-container {
     width: 100%;
 }
@@ -408,8 +422,12 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .content-container {
-        max-width: 600px;
+    .content {
+        font-size: 5px;
+    }
+
+    .menu-button-container {
+        display: block;
     }
 
     .menu-button {
@@ -419,35 +437,40 @@ footer {
     .img-container img {
         width: 400px;
     }
-
+    
     .nav-container {
         position: fixed;
         display: block;
-        top: 40px;
+        width: auto;
+        top: 38px;
         right: -150px;
         padding: 0;
     }
-
+    
     .nav-active .nav-container {
         right: 0;
     }
 
+    nav{
+        flex-direction: column;
+    }
+    
     .logo {
         display: none;
     }
-
+    
     main {
         margin: 0;
     }
 }
 
 @media only screen and (max-width: 425px) {
-    .content {
-        font-size: 12px;
+    .welcome-text{
+        display: block;
     }
 
-    .img-container img {
-        width: 300px;
+    .content {
+        font-size: 5px;
     }
 }
 
