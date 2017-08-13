@@ -47,9 +47,9 @@ a {
     bottom: 0;
 }
 
-.menu-button-container{
-    font-size:16px;
-    display:none;
+.menu-button-container {
+    font-size: 16px;
+    display: none;
     height: 2.4em;
     width: 100%;
     background: rgba(255, 255, 255, 0.7);
@@ -171,7 +171,7 @@ header {
 .wedding-info .description {
     font-family: 'News Cycle', sans-serif;
     top: 11em;
-    width: 56%;
+    width: 25em;
     margin: 0 auto;
 }
 
@@ -184,6 +184,10 @@ header {
 .wedding-info .directions {
     font-family: 'News Cycle', sans-serif;
     top: 13em;
+}
+
+.rsvp-date {
+    font-family: 'News Cycle', sans-serif;
 }
 
 .directions a {
@@ -422,7 +426,19 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .welcome-text{
+    .page-header {
+        width: 13em;
+        height: 3em;
+        top: 1em;
+    }
+
+    .page-footer {
+        width: 13em;
+        height: 3em;
+        bottom: 1em;
+    }
+
+    .welcome-text {
         display: block;
     }
 
@@ -432,7 +448,7 @@ footer {
         margin: 6em auto 0;
     }
 
-    .content.rounded{
+    .content.rounded {
         border-radius: 0;
     }
 
@@ -447,7 +463,7 @@ footer {
     .img-container img {
         width: 400px;
     }
-    
+
     .nav-container {
         position: fixed;
         display: block;
@@ -456,29 +472,40 @@ footer {
         right: -150px;
         padding: 0;
     }
-    
+
     .nav-active .nav-container {
         right: 0;
     }
 
-    nav{
+    nav {
         flex-direction: column;
     }
-    
+
     .logo {
         display: none;
     }
-    
+
     main {
         margin: 0;
     }
+
+
+    /* Wedding page */
+
+    .wedding-info .pretext{
+        top: 7em;
+    }
+    .wedding-info .location{
+        top: 4.7em;
+    }
+    .wedding-info .date{
+        top: 8.4em;
+    }
+    
 }
 
-@media only screen and (max-width: 425px) {
-}
+@media only screen and (max-width: 425px) {}
 
-@media only screen and (max-width: 375px) {
-}
+@media only screen and (max-width: 375px) {}
 
-@media only screen and (max-width: 320px) {
-}
+@media only screen and (max-width: 320px) {}
