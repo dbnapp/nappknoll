@@ -422,8 +422,18 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+    .welcome-text{
+        display: block;
+    }
+
     .content {
-        font-size: 5px;
+        font-size: 8px;
+        width: 100%;
+        margin: 6em auto 0;
+    }
+
+    .content.rounded{
+        border-radius: 0;
     }
 
     .menu-button-container {
@@ -465,31 +475,10 @@ footer {
 }
 
 @media only screen and (max-width: 425px) {
-    .welcome-text{
-        display: block;
-    }
-
-    .content {
-        font-size: 5px;
-    }
 }
 
 @media only screen and (max-width: 375px) {
-    .content {
-        font-size: 11px;
-    }
-
-    .img-container img {
-        width: 300px;
-    }
 }
 
 @media only screen and (max-width: 320px) {
-    .content {
-        font-size: 9px;
-    }
-
-    .img-container img {
-        width: 300px;
-    }
 }
