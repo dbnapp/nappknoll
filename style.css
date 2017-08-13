@@ -404,7 +404,6 @@ p.line-small {
 }
 
 .registry-info .site {
-    top: 10.5em;
     font-weight: bold;
 }
 
@@ -489,19 +488,47 @@ footer {
         margin: 0;
     }
 
-
     /* Wedding page */
 
-    .wedding-info .pretext{
+    .wedding-info .pretext {
         top: 7em;
     }
-    .wedding-info .location{
+
+    .wedding-info .location {
         top: 4.7em;
     }
-    .wedding-info .date{
+
+    .wedding-info .date {
         top: 8.4em;
     }
-    
+
+    /**/
+
+    .email-info, .email {
+        top: 5em;
+    }
+
+    .contact-inputs {
+        top: 8em;
+    }
+
+    /* Registry */
+
+    .registry-info .pretext {
+        top: 7em;
+    }
+
+    .registry-info .instructions {
+        top: 9em;
+    }
+
+    .registry-info .thanks {
+        top: 10em;
+    }
+
+    .registry-info .links {
+        top: 13em;
+    }
 }
 
 @media only screen and (max-width: 425px) {}
