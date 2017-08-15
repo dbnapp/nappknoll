@@ -222,6 +222,16 @@ p.line-small {
 
 .story .timeline {
     display: none;
+    margin: 6em 1em;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.timeline .event {
+    margin: 4em 0;
+}
+
+.timeline .date {
+    font-weight: bold;
 }
 
 .story .page.shown {
@@ -536,12 +546,20 @@ footer {
 }
 
 @media only screen and (max-width: 425px) {
-    .story .page{
+    .story {
+        height: auto;
+    }
+
+    .story .page {
         display: none;
     }
 
-    .story .timeline{
-        display:block;
+    .story .timeline {
+        display: block;
+    }
+
+    .story .page-footer {
+        position: relative;
     }
 }
 
