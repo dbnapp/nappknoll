@@ -220,6 +220,10 @@ p.line-small {
     font-family: 'News Cycle', sans-serif;
 }
 
+.story .timeline {
+    display: none;
+}
+
 .story .page.shown {
     opacity: 1;
     pointer-events: auto;
@@ -531,7 +535,15 @@ footer {
     }
 }
 
-@media only screen and (max-width: 425px) {}
+@media only screen and (max-width: 425px) {
+    .story .page{
+        display: none;
+    }
+
+    .story .timeline{
+        display:block;
+    }
+}
 
 @media only screen and (max-width: 375px) {}
 
