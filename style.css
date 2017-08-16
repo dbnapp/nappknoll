@@ -380,7 +380,12 @@ p.line-small {
 /* Home Page */
 
 .welcome-text {
+    font-size: 8em;
+    margin: 0 0 0.5em 0;
     display: none;
+    text-align: center;
+    color: white;
+    font-family: 'Sacramento', cursive;
 }
 
 .img-container {
@@ -474,7 +479,7 @@ footer {
     }
 
     .img-container img {
-        width: 400px;
+        width: 50em;
     }
 
     .nav-container {
@@ -563,6 +568,14 @@ footer {
     }
 }
 
-@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 375px) {
+    .content .welcome-page {
+        font-size: 7px;
+    }
+}
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+    .content .welcome-page {
+        font-size: 6px;
+    }
+}
