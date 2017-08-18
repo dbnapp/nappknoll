@@ -346,6 +346,7 @@ p.line-small {
 }
 
 .email {
+    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -593,6 +594,7 @@ footer {
 @media only screen and (max-width: 425px) {
     .story {
         height: auto;
+        padding: 0 2em;
     }
 
     .story .page {
@@ -612,15 +614,20 @@ footer {
         bottom: 0;
         left: 0;
         width: 100%;
-        height: 5em;
+        height: 7em;
         background: linear-gradient(rgba(0, 0, 0, 0), white);
         content: "";
+        pointer-events: none;
     }
 }
 
 @media only screen and (max-width: 375px) {
     .content .welcome-page {
         font-size: 7px;
+    }
+
+    .story {
+        padding: auto;
     }
 }
 
