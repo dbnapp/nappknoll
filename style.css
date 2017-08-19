@@ -42,7 +42,7 @@ main {
     background: url("images/background.png") no-repeat fixed;
     background-size: cover;
     transform: scale(1.1);
-    transition: 0.3s;
+    transition: filter 0.3s;
 }
 
 .click-mask {
