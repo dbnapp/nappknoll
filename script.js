@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
         $('body').toggleClass('nav-active');
     });
 
-
+    // story navigation
     $('.story .page .arrow.right').on('click', function() {
         page++;
 
@@ -26,5 +26,18 @@ jQuery(document).ready(function($) {
 
         nextPage.toggleClass('shown');
         prevPage.toggleClass('shown');
+    });
+
+    function showMessageSuccess(){
+        $('body').addClass('message-success');
+    }
+
+    // contact form
+    $('#contact-form').on('submit', function(e){
+        e.preventDefault();
+        $.post({
+            url: "https://wedding-contact-email.appspot.com",
+            data: $(this).serialize(),
+        });
     });
 });

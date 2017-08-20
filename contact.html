@@ -50,18 +50,17 @@
             <div class="email-info">Feel free to reach out to us any time at</div>
             <div class="email"><a href="mailto:NappWedding@gmail.com">NappWedding@gmail.com</a></div>
             
-            <form class="contact-inputs" action="https://formspree.io/NappWedding@gmail.com" method="POST">
+            <form id="contact-form" class="contact-inputs" action="" method="POST">
 
                 <div class="form-info">Or fill out the form below!</div>
 
-                <input type="text" name="name" placeholder="Name">
-                <input type="tel" name="telephone" placeholder="Telephone">
-                <input type="email" name="_replyto" placeholder="Email Address">
+                <input type="text" name="_name" placeholder="Name" required>
+                <input type="tel" name="_phone" placeholder="Telephone">
+                <input type="email" name="_email" placeholder="Email Address" required>
                 <input type="text" name="_subject" placeholder="Subject">
-                <textarea name="message" placeholder="Message"></textarea>
+                <textarea name="_message" placeholder="Message"></textarea>
                 <input type="submit" value="SUBMIT">
 
-                <input type="hidden" name="_format" value="plain" />
             </form>
 
             <div class="page-footer"></div>
