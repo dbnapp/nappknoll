@@ -40,10 +40,10 @@ jQuery(document).ready(function($) {
         disableContactInputs();
         e.preventDefault();
 
-        // $.post({
-        //     url: "https://wedding-contact-email.appspot.com",
-        //     data: $(this).serialize(),
-        // });
+        $.post({
+            url: "https://wedding-contact-email.appspot.com",
+            data: $(this).serialize(),
+        });
     });
 
     // thank you popup dismissal
