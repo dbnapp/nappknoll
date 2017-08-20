@@ -416,7 +416,7 @@ p.line-small {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
     background-color: white;
     border: 1px solid;
     text-align: center;

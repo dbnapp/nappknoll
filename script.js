@@ -36,13 +36,22 @@ jQuery(document).ready(function($) {
 
     // contact form submission
     $('#contact-form').on('submit', function(e) {
+        e.preventDefault();
+
+        var valuesArray = $(this).serializeArray();
+        var data = {};
+
+        valuesArray.forEach(function(value){
+            data[value.name] = value.value; 
+        });
+
         $('body').toggleClass('popup-shown');
         disableContactInputs();
-        e.preventDefault();
+
 
         $.post({
             url: "https://wedding-contact-email.appspot.com",
-            data: $(this).serialize(),
+            data: data
         });
     });
 
