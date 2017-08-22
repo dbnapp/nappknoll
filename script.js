@@ -30,8 +30,10 @@ jQuery(document).ready(function($) {
     });
 
 
-    function disableContactInputs() {
-        $("#contact-form input, #contact-form textarea").prop("disabled", "disabled");
+    function clearContactInputs() {
+        var inputs = $('#contact-form input:not([type="submit"]), #contact-form textarea');
+
+        inputs.val('');
     }
 
     // contact form submission
@@ -46,11 +48,10 @@ jQuery(document).ready(function($) {
         });
 
         $('body').toggleClass('popup-shown');
-        disableContactInputs();
-
+        clearContactInputs();
 
         $.post({
-            url: "https://wedding-contact-email.appspot.com",
+            url: 'https://wedding-contact-email.appspot.com',
             data: data
         });
     });
