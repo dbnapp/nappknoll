@@ -670,3 +670,13 @@ footer {
         font-size: 6px;
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    .nav-container {
+        font-size: 18px;
+    }
+
+    .content {
+        font-size: 12px;
+    }
+}
